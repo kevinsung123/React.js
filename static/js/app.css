@@ -31,9 +31,16 @@ body {
   background-color: #123456;
   height: calc(100% - 70px); }
   #section #content {
+    height: 100%;
+    float: right;
+    overflow-y: scroll; }
+  #section #aside {
     width: 200px;
     height: 100%;
-    background-color: #654321;
-    float: left; }
-  #section #aside {
-    float: right; }
+    float: left;
+    overflow-y: scroll;
+    background-color: #654321; }
+    #section #aside .submenu {
+      height: 100px;
+      padding: 10px;
+      border: 2px #000 solid; }
