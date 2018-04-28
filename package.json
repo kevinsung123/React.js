@@ -9,20 +9,18 @@
 						"css-loader": "^0.28.4",
 						"eslint": "^3.19.0",
 						"nib": "^1.1.2",
-						"node-sass": "^4.7.2",
+						"node-sass": "^4.9.0",
 						"normalize-styl": "^4.1.1",
+						"parcel-bundler": "^1.7.1",
 						"react": "^15.6.1",
 						"react-dom": "^15.6.1",
 						"redux-devtools": "^3.4.1",
 						"sass": "^1.0.0-beta.4",
 						"sass-loader": "^6.0.0",
-						"style-loader": "^0.18.2",
-						"webpack": "^3.10.0",
-						"webpack-dev-server": "^2.10.1"
+						"style-loader": "^0.18.2"
 			},
 			"scripts": {
-						"watch": "webpack --watch-stdin --progress --color",
-						"deploy": "webpack -p"
+						"watch": "parcel src/index.jsx --out-dir static/js -o app"
 			},
 			"dependencies": {
 						"axios": "^0.17.1",
@@ -33,8 +31,9 @@
 						"dotenv-webpack": "^1.5.4",
 						"extract-text-webpack-plugin": "^3.0.2",
 						"file-loader": "^1.1.6",
+						"grommet": "^1.10.1",
 						"json-loader": "^0.5.7",
-						"node-sass": "^4.7.2",
+						"material-ui": "^0.20.0",
 						"null-loader": "^0.1.1",
 						"postcss-loader": "^2.0.10",
 						"radium": "^0.21.1",
@@ -48,13 +47,12 @@
 						"react-redux": "^5.0.6",
 						"react-router-dom": "^4.2.2",
 						"react-sidenav": "^2.1.2",
+						"react-toolbox": "^2.0.0-beta.12",
 						"react-treebeard": "^2.1.0",
 						"react-treeview-component": "^0.1.2",
 						"redux": "^3.7.2",
 						"source-map": "^0.6.1",
 						"strophe.js": "^1.2.14",
-						"url-loader": "^0.6.2",
-						"webpack-dev-middleware": "^2.0.4",
-						"webpack-hot-middleware": "^2.21.0"
+						"url-loader": "^0.6.2"
 			}
 }

@@ -6,7 +6,12 @@ export class Header extends React.Component {
     render() {
         return (
             <div id="header">
-                <h1><Link  to="/"> Moscato</Link></h1>
+                <div id="left-header">
+                    <NavLink to="/">MAIN</NavLink>
+                </div>
+                <div id="right-header">
+                    <h1>IMSAFE</h1>
+                </div>
             </div>
         );
     }

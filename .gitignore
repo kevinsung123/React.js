@@ -1,3 +1,5 @@
 /node_modules/
 /static/js/app.js
 /**/__pycache__/
+/.cache/
+/**/*.map
