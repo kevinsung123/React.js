@@ -10,7 +10,7 @@ export class Header extends React.Component {
                     <NavLink to="/">MAIN</NavLink>
                 </div>
                 <div id="right-header">
-                    <h1>IMSAFE</h1>
+                    <h1>IMSAFE 중앙보훈병원</h1>
                 </div>
             </div>
         );

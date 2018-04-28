@@ -10,11 +10,11 @@ body {
 #header {
   padding: 10px;
   margin: auto;
-  background-color: #6468ef;
+  background-color: #0fb9b1;
   height: 50px;
   line-height: 50px; }
   #header h1 {
-    color: white;
+    color: #ecf0f1;
     margin: auto; }
   #header link {
     color: red; }
@@ -28,8 +28,14 @@ body {
     float: right; }
 
 #section {
-  background-color: #123456;
+  background-color: white;
   height: calc(100% - 70px); }
+  #section h2 {
+    color: white;
+    margin: auto; }
+  #section ul {
+    color: #ecf0f1;
+    margin: auto; }
   #section #content {
     height: 100%;
     float: right;
@@ -39,8 +45,10 @@ body {
     height: 100%;
     float: left;
     overflow-y: scroll;
-    background-color: #654321; }
+    background-color: #0fb9b1; }
     #section #aside .submenu {
       height: 100px;
       padding: 10px;
       border: 2px #000 solid; }
+  #section link {
+    color: #ecf0f1; }
