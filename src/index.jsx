@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom'
 import {Router} from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 
-import App from './App';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 import './app.sass'
