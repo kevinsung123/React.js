@@ -7,7 +7,7 @@ import {Content} from './Content'
 class App extends React.Component {
   render() {
       return (
-       
+
         <div id="main_wrapper" >
           <Header />
           <div id="section">
