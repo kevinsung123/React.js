@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Grid v4.1.0 (https://getbootstrap.com/)
+ * Bootstrap Grid v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -1928,28 +1928,30 @@ body {
   background-color: transparent; }
 
 #header {
-  padding: 10px;
+  padding: 40px;
   margin: auto;
-  background-color: #0fb9b1;
-  height: 50px;
-  line-height: 50px; }
+  background-color: white;
+  bakcgroun: transparent;
+  height: 5px;
+  line-height: 5px;
+  -moz-text-size-adjust: 10px;
+  font-weight: bold; }
   #header h1 {
-    color: #ecf0f1;
+    color: black;
     margin: auto; }
   #header link {
     color: red; }
   #header #left-header {
-    width: 40%;
+    width: 20%;
     height: 100%;
     float: left; }
   #header #right-header {
-    width: 40%;
+    width: 30%;
     height: 100%;
     float: right; }
 
 #section {
   width: 100%;
-  background-color: white;
   height: calc(100% - 70px); }
   #section h2 {
     color: white;
@@ -1967,7 +1969,7 @@ body {
     height: 100%;
     float: left;
     overflow-y: scroll;
-    background-color: #0fb9b1; }
+    -webkit-tap-highlight-color: transparent; }
     #section #aside .submenu {
       height: 100px;
       padding: 10px;
@@ -1981,6 +1983,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: auto;
   border: 1px black solid; }
 
 .nested-wrap {

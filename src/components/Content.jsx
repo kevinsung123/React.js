@@ -15,7 +15,6 @@ export class Content extends React.Component {
                     
                 <Switch>
                     <Route exact path="/" component={MainPage} />
-
                     <Route exact path="/patients" component={PatientsList}/>
                     <Route path="/patients/detail" component={PatientsDetail} />
 
