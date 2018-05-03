@@ -6,8 +6,8 @@ import React from 'react';
 import Paper from 'material-ui/Paper';
 
 const style = {
-    height: 100,
-    width: 100,
+    height: "100%",
+    width: "100%",
     margin: 20,
     textAlign: 'center',
     display: 'inline-block',
@@ -16,10 +16,10 @@ const style = {
 export default class PatientSearchList extends React.Component {
     render() {
         return (
-            <div classNmae="PatientSearchList">
-                <Paper style={style} zDepth={1} rounded={false} >
+            <div className="PatientSearchList">
+                <Paper style={style} zDepth={4} rounded={false} >
                     <Table>
-                        <thead>
+                        <thead className="TableHeader">
                             <tr>
                                 <th>
                                     환자명
@@ -37,24 +37,28 @@ export default class PatientSearchList extends React.Component {
                         </thead>
                         <tbody>
                             <TableRow>
-                                <td> 1</td>
-                                <td> Alan </td>
-                                <td className='secondary'> plays accordion </td>
+                                <td> 이혜민</td>
+                                <td> 1950.02.24 </td>
+                                <td> 여</td>
+                                <td> 02-xxxx-xxxx</td>
                             </TableRow>
                             <TableRow>
-                                <td> 1</td>
-                                <td> Alan </td>
-                                <td className='secondary'> plays accordion </td>
+                                <td> 박진영</td>
+                                <td> 1945.05.24 </td>
+                                <td> 남</td>
+                                <td> 02-xxxx-xxxx</td>
                             </TableRow>
                             <TableRow>
-                                <td> 1</td>
-                                <td> Alan </td>
-                                <td className='secondary'> plays accordion </td>
+                                <td> 이현우</td>
+                                <td> 1943.01.24 </td>
+                                <td> 남</td>
+                                <td> 02-xxxx-xxxx</td>
                             </TableRow>
                             <TableRow>
-                                <td> 1</td>
-                                <td> Alan </td>
-                                <td className='secondary'> plays accordion </td>
+                                <td> 김혜영</td>
+                                <td> 1955.02.24 </td>
+                                <td> 여</td>
+                                <td> 02-xxxx-xxxx</td>
                             </TableRow>
                         </tbody>
                     </Table>

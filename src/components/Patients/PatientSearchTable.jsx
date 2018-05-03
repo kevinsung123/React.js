@@ -20,8 +20,8 @@ export default class PatientSearchTable extends React.Component {
             <div className="PatientTable">
                 <Paper style={style} zDepth={4} rounded={false} >
                     <Table>
-                        <TableBody>
-                            <TableRow>
+                        <TableBody id ="TB">
+                            <TableRow >
                                 <TableRowColumn>기간</TableRowColumn>
                                 <TableRowColumn><DatePicker /></TableRowColumn>
                             </TableRow>
