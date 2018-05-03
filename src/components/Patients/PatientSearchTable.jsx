@@ -14,7 +14,7 @@ const style = {
 
 };
 
-export class PatientSearchTable extends React.Component {
+export default class PatientSearchTable extends React.Component {
     render() {
         return (
             <div className="PatientTable">
@@ -41,7 +41,7 @@ export class PatientSearchTable extends React.Component {
                     </Table>
                 </Paper>
             </div>
-                    );
-                }
-            }
-            
+        );
+    }
+}
+

@@ -13,10 +13,10 @@ const style = {
     display: 'inline-block',
 };
 
-export class PatientSearchList extends React.Component {
+export default class PatientSearchList extends React.Component {
     render() {
         return (
-            <div>
+            <div classNmae="PatientSearchList">
                 <Paper style={style} zDepth={1} rounded={false} >
                     <Table>
                         <thead>
@@ -65,6 +65,4 @@ export class PatientSearchList extends React.Component {
 }
 
 
-
-export default PaperExampleRounded;
 
